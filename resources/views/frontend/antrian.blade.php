@@ -2,12 +2,18 @@
 <html lang="en">
 
 <head>
-  <title>Antrian Pengunjung</title>
+  <title>LAPAS KELAS IIB CIAMIS</title>
   <meta charset="utf-8">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">  
 
     <style>
+      body {
+        background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+        min-height: 100vh;
+        margin: 0;
+      }
+      
       .custom-container {
         padding-left: 0px;
         padding-right: 0px;
@@ -20,7 +26,7 @@
       .marquee-container {
         width: 100%;
         overflow: hidden;
-        background-color: #f0f0f0;
+        background-color: transparent;
       }
 
       .marquee-text {
@@ -148,7 +154,7 @@
       <div class="marquee-text">
           <b>{{$tulisan_berjalan->value}}</b>
       </div>
-  </div>
+    </div>
   </footer>
   
   <script src="{{ asset('js/app.js') }}"></script>
