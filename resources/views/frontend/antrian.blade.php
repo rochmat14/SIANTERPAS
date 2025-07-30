@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 
     <style>
       body {
@@ -15,8 +16,12 @@
       }
       
       #example1 {
-        border: 1px solid;
+        border: 0px solid;
         box-shadow: 10px 10px 10px 0px #00f9ee;
+      }
+
+      .card-header {
+        background: radial-gradient(circle,rgba(247, 240, 141, 1) 0%, rgba(203, 223, 245, 1) 100%);
       }
       
       .custom-container {
@@ -26,6 +31,8 @@
       
       img {
         width: 724px;
+        border: 0px solid;
+        box-shadow: 0px 0px 10px 10px #00f9ee;
       }
 
       .marquee-container {
@@ -35,11 +42,14 @@
       }
 
       .marquee-text {
+        font-family: "Audiowide", sans-serif;
         display: inline-block;
         white-space: nowrap;
         animation: scroll-left 40s linear infinite;
-        font-size: 20px;
+        font-size: 28px;
         padding: 0px;
+        color: white;
+        text-shadow: 0 0 10px #FF0000;
       }
 
     @keyframes scroll-left {
