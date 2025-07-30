@@ -2,16 +2,16 @@ Berikut adalah SIANTERPAS
 
 Cara Instalasi
 
-git clone https://github.com/rochmat/SIANTERPAS.git
+1. git clone https://github.com/rochmat14/SIANTERPAS.git
 
-setup DB Mysql , dimana file sql berada di direktory SQL/cms-coredb.sql
+2. setup DB Mysql , dimana file sql berada di direktory SQL/cms-coredb.sql
 
-Rename file .env-sample
+3. Rename file .env-sample
 
-Sesuaikan file .env berdasarkan Akses Database server anda
+4. Sesuaikan file .env berdasarkan Akses Database server anda
 
-jalankan perintah composer install di dalam direktory /SIANTERPAS
+5. jalankan perintah composer install di dalam direktory /SIANTERPAS
 
-akses website dengan menjalankan php artisan serve --host 0.0.0.0 --port 8000 di dalam folder SIANTERPAS melalalui terminal
+6. akses website dengan menjalankan php artisan serve --host 0.0.0.0 --port 8000 di dalam folder SIANTERPAS melalalui terminal
 
-user : admin@mail.com pass : qwerty123
+7. user : admin@mail.com pass : qwerty123
