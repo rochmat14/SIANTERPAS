@@ -61,6 +61,9 @@
 
                                         
                                     </div>
+                                    <button class="btn btn-outline-secondary" type="button" id="togglePassword">
+                                        Show
+                                    </button>
 
 
                                     @error('email')
@@ -90,6 +93,20 @@
         </div>
     </div>
 
+   <script>
+        const toggle = document.getElementById("togglePassword");
+        const password = document.getElementById("password");
+
+        toggle.addEventListener("click", function () {
+            // toggle the type
+            const type = password.getAttribute("type") === "password" ? "text" : "password";
+            password.setAttribute("type", type);
+
+            // toggle the button text
+            this.textContent = type === "password" ? "Show" : "Hide";
+        });
+    </script>
+    
     <!-- Jquery js-->
     <script src="{{$assets}}/js/vendors/jquery.min.js"></script>
 
