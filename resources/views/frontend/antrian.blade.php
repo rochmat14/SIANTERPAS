@@ -14,6 +14,11 @@
         margin: 0;
       }
       
+      #example1 {
+        border: 1px solid;
+        box-shadow: 10px 10px 10px 0px #00f9ee;
+      }
+      
       .custom-container {
         padding-left: 0px;
         padding-right: 0px;
@@ -34,7 +39,7 @@
         white-space: nowrap;
         animation: scroll-left 40s linear infinite;
         font-size: 20px;
-        padding: 10px;
+        padding: 0px;
       }
 
     @keyframes scroll-left {
@@ -71,7 +76,7 @@
         </div>
         
         <div class="col-4">
-          <div class="card mb-2">
+          <div class="card mb-3" id="example1">
             <div class="card-header head-informasi">
               <b>LAYANAN INFORMASI</b>
             </div>
@@ -85,7 +90,7 @@
           </div>
 
           <div class="col">
-            <div class="card mb-2">
+            <div class="card mb-3" id="example1">
               <div class="card-header">
                 <b>LAYANAN PENGADUAN</b>
               </div>
@@ -103,7 +108,7 @@
       
       <div class="row">
         <div class="col">
-          <div class="card">
+          <div class="card" id="example1">
             <div class="card-header">
               <b>LAYANAN KUNJUNGAN SESI 1</b>
             </div>
@@ -116,7 +121,7 @@
         </div>
 
         <div class="col">
-          <div class="card">
+          <div class="card" id="example1">
             <div class="card-header">
               <b>LAYANAN KUNJUNGAN SESI 2</b>
             </div>
@@ -129,7 +134,7 @@
         </div>
 
         <div class="col">
-          <div class="card">
+          <div class="card" id="example1">
             <div class="card-header">
               <b>LAYANAN KUNJUNGAN SESI 3</b>
             </div>
