@@ -49,22 +49,32 @@ $(document).ready(function() {
       </div>
       <div class="card-body">
         
-        {!! Form::open(['route' => [$controller.'.update', $role->id], 'method'=>'PUT']) !!}
+        
+        <form action="{{ route($controller.'.update', $role->id) }}" method="POST">
+          @csrf
+          @method('PUT')
             <div class="form-body">
                 <div class="row">
                     <div class="col-md-12 ">
                         <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }} ">
-                            {!! Form::label('name', 'Name'); !!}
-                            {!! Form::text('name', $role->name, ['required', 'class'=>'form-control'.( $errors->has('name') ? ' form-control-danger' : '' ) ]); !!}
-                            @if ($errors->has('name')) <small class="form-control-feedback"> {{ $errors->first('name') }} </small>@endif
+                            <input type="text" name="name" value="{{ old('name', $role->name) }}" 
+                              class="form-control{{ $errors->has('name') ? ' form-control-danger' : '' }}" required>
+                            @error('name')
+                                <small class="form-control-feedback">{{ $message }}</small>
+                            @enderror
                         </div>
-
-                        
-
                         <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }} ">
-                            {!! Form::label('deskripsi', 'Deskription'); !!}
-                            {!! Form::text('deskripsi', $role->deskripsi, ['required', 'class'=>'form-control'.( $errors->has('deskripsi') ? ' form-control-danger' : '' ) ]); !!}
-                            @if ($errors->has('deskripsi')) <small class="form-control-feedback"> {{ $errors->first('deskripsi') }} </small>@endif
+                            <label for="deskripsi">Deskription</label>
+                            <input 
+                                type="text" 
+                                name="deskripsi" 
+                                id="deskripsi" 
+                                value="{{ old('deskripsi', $role->deskripsi) }}" 
+                                required 
+                                class="form-control{{ $errors->has('deskripsi') ? ' form-control-danger' : '' }}">
+                            @if ($errors->has('deskripsi'))
+                                <small class="form-control-feedback">{{ $errors->first('deskripsi') }}</small>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -73,15 +83,9 @@ $(document).ready(function() {
                 <button type="submit" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
                 <a href="{{ route($controller.'.index') }}" class="btn btn-inverse">Cancel</a>
             </div>
-        {!! Form::close() !!}
-
-
+        </form>
       </div>
     </div>
-    <!--/div-->
-
-    
-    
   </div>
 </div>
 
