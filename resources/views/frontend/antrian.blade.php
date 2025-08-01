@@ -20,6 +20,10 @@
         box-shadow: 10px 10px 10px 0px #00f9ee;
       }
 
+      .petunjuk {
+        pointer-events: none;
+      }
+
       .card-header {
         background: radial-gradient(circle,rgba(247, 240, 141, 1) 0%, rgba(203, 223, 245, 1) 100%);
       }
@@ -95,7 +99,7 @@
               <p class="card-text">
                 <h4 id="antrian_informasi">TUTUP</h4>
               </p>
-              <a href="#" class="btn btn-primary">MENUJU MEJA LAYANAN INFORMASI</a>
+              <a href="#" class="btn btn-primary petunjuk">MENUJU MEJA LAYANAN INFORMASI</a>
             </div>
           </div>
 
@@ -109,7 +113,7 @@
                 <p class="card-text">
                   <h4 id="antrian_pengaduan">TUTUP</h4>
                 </p>
-                <a href="#" class="btn btn-primary">MENUJU MEJA LAYANAN PENGADUAN</a>
+                <a href="#" class="btn btn-primary petunjuk">MENUJU MEJA LAYANAN PENGADUAN</a>
               </div>
             </div>
           </div>
@@ -125,7 +129,7 @@
             <div class="card-body">
               <h5 class="card-title">NOMOR ANTRIAN</h5>
               <p class="card-text"><h4 id="antrian_kunjungan1">TUTUP</h4></p>
-              <a href="#" class="btn btn-primary">MENUJU MEJA LAYANAN KUNJUNGAN</a>
+              <a href="#" class="btn btn-primary petunjuk">MENUJU MEJA LAYANAN KUNJUNGAN</a>
             </div>
           </div>
         </div>
@@ -138,7 +142,7 @@
             <div class="card-body">
               <h5 class="card-title">NOMOR ANTRIAN</h5>
               <p class="card-text"><h4 id="antrian_kunjungan2">TUTUP</h4></p>
-              <a href="#" class="btn btn-primary">MENUJU MEJA LAYANAN KUNJUNGAN</a>
+              <a href="#" class="btn btn-primary petunjuk">MENUJU MEJA LAYANAN KUNJUNGAN</a>
             </div>
           </div>
         </div>
@@ -151,7 +155,7 @@
             <div class="card-body">
               <h5 class="card-title">NOMOR ANTRIAN</h5>
               <p class="card-text"><h4 id="antrian_kunjungan3">TUTUP</h4></p>
-              <a href="#" class="btn btn-primary">MENUJU MEJA LAYANAN KUNJUNGAN</a>
+              <a href="#" class="btn btn-primary petunjuk">MENUJU MEJA LAYANAN KUNJUNGAN</a>
             </div>
           </div>
         </div>
