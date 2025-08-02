@@ -2,8 +2,8 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Jul 30, 2025 at 09:49 AM
+-- Host: 127.0.0.1
+-- Generation Time: Aug 02, 2025 at 07:10 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -423,7 +423,7 @@ CREATE TABLE `ms_users_description` (
 
 INSERT INTO `ms_users_description` (`id`, `users_id`, `code`, `type_user`, `type_acc_manager`, `id_paket`, `nama_depan`, `nama_belakang`, `gelar`, `jenis_kelamin`, `phone`, `alamat_rumah`, `pendidikan_terakhir`, `tempat_lahir`, `tanggal_lahir`, `tanggal_masuk`, `doc_ktp`, `nama_instansi`, `alamat_instansi`, `telp_instansi`, `email_instansi`, `logo_instansi`, `created_at`, `updated_at`, `created_by`, `updated_by`, `status`) VALUES
 (3, 3, NULL, 'internal', NULL, NULL, 'Super', 'Admin', NULL, 'pria', NULL, 'Jakarta - Indonesia', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2024-12-09 18:26:48', NULL, 3, 1),
-(62, 7, NULL, 'internal', NULL, NULL, 'Jadir', 'Ullah', NULL, 'pria', NULL, 'Bekasi, Indonesia', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-11-19 15:15:51', '2024-10-17 09:48:51', 3, 3, 1),
+(62, 7, NULL, 'internal', NULL, NULL, 'Operator', 'Layanan Terpadu', NULL, 'pria', NULL, 'Ciamis, Jawa Barat', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-11-19 15:15:51', '2025-08-02 16:39:50', 3, 3, 1),
 (63, 8, NULL, 'internal', NULL, NULL, 'super', 'user', NULL, 'pria', NULL, 'xxx', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-11-22 10:19:28', '2023-11-22 10:30:29', 3, 3, 1);
 
 -- --------------------------------------------------------
@@ -853,79 +853,65 @@ INSERT INTO `role_has_permissions` (`permission_id`, `role_id`) VALUES
 (19, 1),
 (271, 1),
 (438, 1),
-(438, 5),
 (439, 1),
-(439, 5),
 (440, 1),
-(440, 5),
 (441, 1),
-(441, 5),
 (454, 1),
-(454, 5),
 (455, 1),
-(455, 5),
 (456, 1),
-(456, 5),
 (457, 1),
 (458, 1),
-(458, 5),
 (459, 1),
-(459, 5),
 (460, 1),
-(460, 5),
 (461, 1),
 (462, 1),
-(462, 5),
 (463, 1),
-(463, 5),
 (464, 1),
-(464, 5),
 (465, 1),
 (466, 1),
 (467, 1),
 (468, 1),
 (469, 1),
 (470, 1),
-(470, 5),
 (471, 1),
-(471, 5),
 (472, 1),
-(472, 5),
 (473, 1),
 (474, 1),
-(474, 5),
 (475, 1),
-(475, 5),
 (476, 1),
-(476, 5),
 (477, 1),
 (478, 1),
-(478, 5),
 (479, 1),
-(479, 5),
 (480, 1),
-(480, 5),
 (481, 1),
 (482, 1),
-(482, 5),
 (483, 1),
-(483, 5),
 (484, 1),
-(484, 5),
 (485, 1),
 (490, 1),
 (491, 1),
 (524, 1),
+(524, 5),
 (525, 1),
+(525, 5),
 (526, 1),
+(526, 5),
 (527, 1),
+(527, 5),
 (528, 1),
+(528, 5),
 (529, 1),
+(529, 5),
 (530, 1),
+(530, 5),
 (531, 1),
+(531, 5),
 (532, 1),
+(532, 5),
 (533, 1),
+(533, 5),
 (534, 1),
+(534, 5),
 (535, 1),
 (536, 1),
 (537, 1),
@@ -1007,8 +993,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `activation_code`, `email_verified_at`, `verified_status`, `password`, `images`, `signature`, `moto`, `remember_token`, `last_login`, `created_at`, `updated_at`, `status`, `created_by`, `updated_by`, `lat`, `lon`) VALUES
-(3, 'admin', 'admin@mail.com', NULL, NULL, 1, '$2y$10$0F47/w9.njM8hQhzUEjgoeBM3a7ylsTu02786vs25ON/s8BOGw6EW', 'help-desk.png', '662335be0a2b7.png', 'Hidup Adalah Pilihan', 'xncu3YCD0dUMOsRtjbpCXd9JW1dpUMgn0OstzEHqYeGK4oNP34Acd54eSpbA', '2025-07-30 08:57:45', '2020-02-01 02:05:32', '2025-07-30 01:57:45', 1, NULL, 3, NULL, NULL),
-(7, 'UdinMudin', 'jadir@gmail.com', NULL, NULL, 1, '$2y$10$qvp9RwLCPej/plsRFurq6uTyN5M.jGt5LY1LBcrJhmKq0WJbPmlvi', '2.jpg', '662335b0639d7.png', NULL, NULL, '2024-10-24 10:30:23', '2023-11-19 15:15:50', '2024-12-09 18:26:32', 1, NULL, 3, NULL, NULL),
+(3, 'admin', 'admin@mail.com', NULL, NULL, 1, '$2y$10$0F47/w9.njM8hQhzUEjgoeBM3a7ylsTu02786vs25ON/s8BOGw6EW', 'help-desk.png', '662335be0a2b7.png', 'Hidup Adalah Pilihan', 'XtbNLOznMBGYFYeoIF0uQgrA3Ga2jie7j5y4GO74g0SZkVo4W5trYXHj8u9O', '2025-08-02 23:47:29', '2020-02-01 02:05:32', '2025-08-02 16:47:29', 1, NULL, 3, NULL, NULL),
+(7, 'UdinMudin', 'operator@mail.com', NULL, NULL, 1, '$2y$10$sI.fykaBCsFqYrt3ecm/u.PBbkDsQFaffehlAndabIAKXd/suA0aO', '2.jpg', '662335b0639d7.png', NULL, NULL, '2025-08-02 23:51:54', '2023-11-19 15:15:50', '2025-08-02 16:51:54', 1, NULL, 3, NULL, NULL),
 (8, 'superuser', 'super@mail.com', NULL, NULL, 1, '$2y$10$7Ur7CYyD2NFEymt/tSuXx.zCigr8.3anpw6f8T9SzRYvsE2vANo8C', 'default.png', NULL, NULL, NULL, '2024-03-15 14:12:53', '2023-11-22 10:19:28', '2024-03-15 07:12:53', 1, NULL, 3, NULL, NULL);
 
 --
