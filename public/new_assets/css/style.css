@@ -50396,6 +50396,8 @@ body.dark-mode.body-style1 footer.footer {
 
 #card_frontend {
     background: radial-gradient(circle,rgba(247, 240, 141, 1) 0%, rgba(203, 223, 245, 1) 100%);
+    border: 0px solid;
+    box-shadow: 10px 10px 10px 0px #00f9ee;
 }
 
 .text_btn_atri {
@@ -50404,4 +50406,36 @@ body.dark-mode.body-style1 footer.footer {
 
 #body_layout_antrian {
     margin-top: 2px;
+}
+
+#foto-sampul {
+    height: 430px;
+    border: 0px solid;
+    box-shadow: 10px 10px 10px 0px #00f9ee;
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    }
+
+    .marquee-text {
+    font-family: "Audiowide", sans-serif;
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 40s linear infinite;
+    font-size: 28px;
+    padding: 0px;
+    color: white;
+    text-shadow: 0 0 10px #FF0000;
+    }
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(45%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }

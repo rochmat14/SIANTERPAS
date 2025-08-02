@@ -5,7 +5,7 @@
 <!--End Page header-->
 <div class="row">
     <div class="col-xl-8 col-md-4 col-lg-4">
-        <img class="mx-auto w-100" id="gambar_antrian" src="{{ asset('images/infobox/'.$infobox['image']) }}">  
+        <img class="mx-auto w-100" id="foto-sampul" src="{{ asset('images/infobox/'.$infobox['image']) }}">  
     </div>
 
     <div class="col-xl-4 col-md-4 col-lg-4">
@@ -22,7 +22,7 @@
                                 <div class="row text-center">
                                     <div class="col-md-12">
                                         <h1 id="antrian_informasi">TUTUP</h1>
-                                        <button href="#" class="btn btn-lg btn-warning fw-bold text_btn_atri">MENUJU MEJA LAYANAN INFORMASI</button>
+                                        <button href="#" class="btn btn-warning fw-bold text_btn_atri">MEJA LAYANAN INFORMASI</button>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@
                                 <div class="row text-center">
                                     <div class="col-md-12">
                                         <h1 id="antrian_pengaduan">TUTUP</h1>
-                                        <button href="#" class="btn btn-lg btn-warning fw-bold text_btn_atri">MENUJU MEJA LAYANAN PENGADUAN</button>
+                                        <button href="#" class="btn btn-warning fw-bold text_btn_atri">MEJA LAYANAN PENGADUAN</button>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                                 <div class="row text-center">
                                     <div class="col-md-12">
                                         <h1 id="antrian_kunjungan1">TUTUP</h1>
-                                        <button href="#" class="btn btn-lg btn-warning fw-bold text_btn_atri">MENUJU MEJA LAYANAN KUNJUNGAN</button>
+                                        <button href="#" class="btn btn-warning fw-bold text_btn_atri">MEJA LAYANAN KUNJUNGAN</button>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@
                                 <div class="row text-center">
                                     <div class="col-md-12">
                                         <h1 id="antrian_kunjungan2">TUTUP</h1>
-                                        <button href="#" class="btn btn-lg btn-warning fw-bold text_btn_atri">MENUJU MEJA LAYANAN KUNJUNGAN</button>
+                                        <button href="#" class="btn btn-warning fw-bold text_btn_atri">MEJA LAYANAN KUNJUNGAN</button>
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +124,7 @@
                                 <div class="row text-center">
                                     <div class="col-md-12">
                                         <h1 id="antrian_kunjungan3">TUTUP</h1>
-                                        <button href="#" class="btn btn-lg btn-warning fw-bold text_btn_atri">MENUJU MEJA LAYANAN KUNJUNGAN</button>
+                                        <button href="#" class="btn btn-warning fw-bold text_btn_atri">MEJA LAYANAN KUNJUNGAN</button>
                                     </div>
                                 </div>
                             </div>

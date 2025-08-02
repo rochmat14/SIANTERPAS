@@ -101,6 +101,14 @@
 
                     @yield('content')
 
+                    <footer id="footer">
+                        <div class="marquee-container">
+                        <div class="marquee-text">
+                            <b>{{$tulisan_berjalan->value}}</b>
+                        </div>
+                        </div>
+                    </footer>
+
                 </div>
             </div><!-- end app-content-->
         </div>

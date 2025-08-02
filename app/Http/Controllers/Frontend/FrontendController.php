@@ -31,7 +31,7 @@ class FrontendController extends Controller
         
         $infobox = InfoBox::take(1)->first();
 
-        return view('frontend.antrian', compact(['infobox', 'tulisan_berjalan']));
+        return view('frontend.testing', compact(['infobox', 'tulisan_berjalan']))->with(['controller'=>$this->controller]);
     }
 
 
@@ -43,6 +43,6 @@ class FrontendController extends Controller
         
         $infobox = InfoBox::take(1)->first();
 
-        return view('frontend.testing', compact(['infobox', 'tulisan_berjalan']))->with(['controller'=>$this->controller]);
+        return view('frontend.antrian ', compact(['infobox', 'tulisan_berjalan']))->with(['controller'=>$this->controller]);
     }
 }
