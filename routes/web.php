@@ -362,6 +362,7 @@ Route::group(array(
 Route::group(['prefix' => LaravelLocalization::setLocale() ], function ()
 {
     Route::get('/', 'Frontend\FrontendController@index')->name('home'); 
+    Route::get('/testing', 'Frontend\FrontendController@testing'); 
     
 });
 

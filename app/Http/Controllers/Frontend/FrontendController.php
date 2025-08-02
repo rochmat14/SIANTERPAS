@@ -35,5 +35,14 @@ class FrontendController extends Controller
     }
 
 
-   
+   public function testing(Request $request)
+    {
+        // echo "For Frond End";
+
+        $tulisan_berjalan = SettingGeneral::where('name','title_marquee')->first();
+        
+        $infobox = InfoBox::take(1)->first();
+
+        return view('frontend.testing', compact(['infobox', 'tulisan_berjalan']))->with(['controller'=>$this->controller]);
+    }
 }

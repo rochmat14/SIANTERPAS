@@ -121,7 +121,7 @@
       </div>
       
       <div class="row">
-        <div class="col">
+        <div class="col ">
           <div class="card" id="example1">
             <div class="card-header">
               <b>LAYANAN KUNJUNGAN SESI 1</b>
