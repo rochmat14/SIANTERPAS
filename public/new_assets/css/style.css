@@ -50434,7 +50434,8 @@ body.dark-mode.body-style1 footer.footer {
 }
 
 #foto-sampul {
-    height: 430px;
+    border-radius: 10px;
+    height: 551px;
     border: 0px solid;
     box-shadow: 10px 10px 10px 0px #00f9ee;
 }
