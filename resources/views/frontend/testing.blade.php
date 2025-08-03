@@ -11,7 +11,7 @@
     <div class="col-xl-4 col-md-4 col-lg-4">
         <div class="row">
             <div class="col-xl-12 col-md-12 col-lg-12">
-                <div class="card text-black" id="card_frontend">
+                <div class="card text-white" id="card_frontend1">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-xl-12 col-md-12 col-lg-12">
@@ -22,7 +22,7 @@
                                 <div class="row text-center">
                                     <div class="col-md-12">
                                         <h1 id="antrian_informasi">TUTUP</h1>
-                                        <button href="#" class="btn btn-warning fw-bold text_btn_atri">MEJA LAYANAN INFORMASI</button>
+                                        <button href="#" class="btn btn-success fw-bold text_btn_atri">MEJA LAYANAN INFORMASI</button>
                                     </div>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@
     
         <div class="row">
             <div class="col-xl-12 col-md-12 col-lg-12">
-                <div class="card text-black" id="card_frontend">
+                <div class="card text-white" id="card_frontend2">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-xl-12 col-md-12 col-lg-12">
@@ -45,7 +45,7 @@
                                 <div class="row text-center">
                                     <div class="col-md-12">
                                         <h1 id="antrian_pengaduan">TUTUP</h1>
-                                        <button href="#" class="btn btn-warning fw-bold text_btn_atri">MEJA LAYANAN PENGADUAN</button>
+                                        <button href="#" class="btn btn-success fw-bold text_btn_atri">MEJA LAYANAN PENGADUAN</button>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@
     <div class="col-xl-4 col-md-4 col-lg-4">
         <div class="row">
             <div class="col-xl-12 col-md-12 col-lg-12">
-                <div class="card text-black" id="card_frontend">
+                <div class="card text-white" id="card_frontend3">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-xl-12 col-md-12 col-lg-12">
@@ -72,7 +72,7 @@
                                 <div class="row text-center">
                                     <div class="col-md-12">
                                         <h1 id="antrian_kunjungan1">TUTUP</h1>
-                                        <button href="#" class="btn btn-warning fw-bold text_btn_atri">MEJA LAYANAN KUNJUNGAN</button>
+                                        <button href="#" class="btn btn-success fw-bold text_btn_atri">MEJA LAYANAN KUNJUNGAN</button>
                                     </div>
                                 </div>
                             </div>
@@ -87,7 +87,7 @@
     <div class="col-xl-4 col-md-4 col-lg-4">
         <div class="row">
             <div class="col-xl-12 col-md-12 col-lg-12">
-                <div class="card text-black" id="card_frontend">
+                <div class="card text-white" id="card_frontend4">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-xl-12 col-md-12 col-lg-12">
@@ -98,7 +98,7 @@
                                 <div class="row text-center">
                                     <div class="col-md-12">
                                         <h1 id="antrian_kunjungan2">TUTUP</h1>
-                                        <button href="#" class="btn btn-warning fw-bold text_btn_atri">MEJA LAYANAN KUNJUNGAN</button>
+                                        <button href="#" class="btn btn-success fw-bold text_btn_atri">MEJA LAYANAN KUNJUNGAN</button>
                                     </div>
                                 </div>
                             </div>
@@ -113,8 +113,8 @@
     <div class="col-xl-4 col-md-4 col-lg-4">
         <div class="row">
             <div class="col-xl-12 col-md-12 col-lg-12">
-                <div class="card text-black">
-                    <div class="card-body" id="card_frontend">
+                <div class="card text-white">
+                    <div class="card-body" id="card_frontend5">
                         <div class="row">
                             <div class="col-xl-12 col-md-12 col-lg-12">
                                 <div class="d-block card-header border-0 text-center px-0">
@@ -124,7 +124,7 @@
                                 <div class="row text-center">
                                     <div class="col-md-12">
                                         <h1 id="antrian_kunjungan3">TUTUP</h1>
-                                        <button href="#" class="btn btn-warning fw-bold text_btn_atri">MEJA LAYANAN KUNJUNGAN</button>
+                                        <button href="#" class="btn btn-success fw-bold text_btn_atri">MEJA LAYANAN KUNJUNGAN</button>
                                     </div>
                                 </div>
                             </div>

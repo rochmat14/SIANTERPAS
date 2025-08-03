@@ -50394,8 +50394,33 @@ body.dark-mode.body-style1 footer.footer {
     background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
 }
 
-#card_frontend {
-    background: radial-gradient(circle,rgba(247, 240, 141, 1) 0%, rgba(203, 223, 245, 1) 100%);
+#card_frontend1 {
+    
+    background: linear-gradient(90deg,rgba(42, 155, 153, 1) 0%, rgba(227, 113, 48, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    border: 0px solid;
+    box-shadow: 10px 10px 10px 0px #00f9ee;
+}
+
+#card_frontend2 {
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    border: 0px solid;
+    box-shadow: 10px 10px 10px 0px #00f9ee;
+}
+
+#card_frontend3 {
+    background: linear-gradient(90deg,rgba(42, 155, 153, 1) 0%, rgba(227, 113, 48, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    border: 0px solid;
+    box-shadow: 10px 10px 10px 0px #00f9ee;
+}
+
+#card_frontend4 {
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    border: 0px solid;
+    box-shadow: 10px 10px 10px 0px #00f9ee;
+}
+
+#card_frontend5 {
+    background: linear-gradient(90deg,rgba(42, 155, 153, 1) 0%, rgba(227, 113, 48, 1) 100%, rgba(237, 221, 83, 1) 100%);
     border: 0px solid;
     box-shadow: 10px 10px 10px 0px #00f9ee;
 }
